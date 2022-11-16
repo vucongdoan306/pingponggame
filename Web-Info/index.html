@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ping Pong JS</title>
+    <meta charset="UTF-8">
+    <!-- index.css -->
+    <link rel="stylesheet" href="../Resources/css/index.css">
+    <!-- Tab Icon -->
+      <link rel="icon" type="image/gif" href="../Resources/img/pingPongIcon.png" />
+      <!-- Font Awesome -->
+  <script async src="../Resources/js/fontawesome.js"></script>
+    <!-- jQuery library -->
+    <script async src="../Resources/js/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <div id="form">
+        <input type="text" oninput="changeBtnColor()" id="nameInput" placeholder=" ex: Solid Snake" required/>
+        <button id="btn-continue" type="button" onclick="submit()"><i id="icon-continue" class="fa fa-arrow-right"></i></button>
+        <p id="error"></p>
+    </div>
+
+<p align="center"><span>Defeat the opponent using your mouse. Keep the mouse cursor inside the canvas.<br>First player that reaches <b>11 points</b> wins the match.</span>
+    <br><br>
+   <canvas id="gameCanvas" width="800px" height="600px" align="right"></canvas>
+</p>
+
+<p>Click <a href="https://github.com/MirzaLeka" target="_blank">here</a> to see more awesome projects.</p>
+
+<div id="snackbar"></div>
+   
+</body>
+
+<!-- index.js -->
+<script async src="../Resources/js/index.js">
+    </script>
+
+    </html>
